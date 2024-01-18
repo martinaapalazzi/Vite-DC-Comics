@@ -34,8 +34,8 @@
 
   <div id="main">
 
-    <div class="first-container">
-      <h2>
+    <div>
+      <h2 class="content-container">
       Content goes here
       </h2>
     </div>

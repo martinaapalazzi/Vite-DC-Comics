@@ -46,17 +46,22 @@ import logo from '../assets/img/dc-logo.png';
 
   <div id="header">
 
-    <div class="logo-container">
-      <img :src="logo" alt="Logo">
-    </div>
+    <div class="header-container">
 
-    <div>
+      <div class="logo-container">
+        <img :src="logo" alt="Logo">
+      </div>
+
+      <div>
       
-      <ul>
-        <li v-for="(singleLinkHeader, index) in linksHeader">
-          <a href="#"> {{ singleLinkHeader.link }}</a>
-        </li>
-      </ul>
+        <ul>
+          <li v-for="(singleLinkHeader, index) in linksHeader">
+            <a href="#"> {{ singleLinkHeader.link }}</a>
+          </li>
+        </ul>
+
+      </div>
+
 
     </div>
 
