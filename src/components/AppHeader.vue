@@ -1,7 +1,9 @@
 <script>
+import logo from '../assets/img/dc-logo.png';
   export default {
     data() {
       return {
+        logo,
         linksHeader: [
           {
             link: 'CHARACTERS'
@@ -45,21 +47,23 @@
   <div id="header">
 
     <div>
-      <img src="../assets/img/dc-logo.png" alt="">
+      <img :src="logo" alt="Logo">
     </div>
 
     <div>
+      
       <ul>
         <li v-for="(singleLinkHeader, index) in linksHeader">
           <a href="#"> {{ singleLinkHeader.link }}</a>
         </li>
       </ul>
+
     </div>
 
   </div>
   
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 
 </style>

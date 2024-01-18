@@ -1,8 +1,8 @@
 <script>
 
-  import AppHeaderVue from './components/AppHeader.vue';
-  import AppMainVue from './components/AppMain.vue';
-  import AppFooterVue from './components/AppFooter.vue';
+  import AppHeader from './components/AppHeader.vue';
+  import AppMain from './components/AppMain.vue';
+  import AppFooter from './components/AppFooter.vue';
 
   export default {
     data() {
@@ -11,9 +11,9 @@
       }
     },
     components: {
-      AppHeaderVue,
-      AppMainVue,
-      AppFooterVue
+      AppHeader,
+      AppMain,
+      AppFooter
     },
     methods: {
 
@@ -23,17 +23,17 @@
 
 <template>
 
-  <div>
+  <div id="container">
 
-    <AppHeaderVue />
-    <AppMainVue />
-    <AppFooterVue />
+    <AppHeader />
+    <AppMain />
+    <AppFooter />
 
   </div>
   
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @use "assets/scss/main.scss" as *;
 @import "assets/scss/partials/reset.scss";
 

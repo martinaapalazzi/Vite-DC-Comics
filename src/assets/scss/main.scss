@@ -2,24 +2,45 @@
 @use "partials/variables.scss" as *;
 @use "partials/mixins.scss" as *;
 
+// GENERAL
+
 
 // HEADER STYLE 
 
 #header {
     display: $displayFlex;
-    justify-content: $JustifyContentSpaceBetween;
+    justify-content: $JustifyContentSpaceAround;
+    align-items: $AlignItemsCenter;
+    background-color: aquamarine;
 
     ul {
+        list-style-type: none;
         display: $displayFlex;
+        gap: 15px;
         li {
             
             a {
+                color: black;
                 text-decoration: none;
-                color: white;
-                background-color: black;
-
             }
-
+            a:hover {
+                color: #0082F9;
+            }
         }
     }
+}
+
+// MAIN STYLE 
+
+#main {
+
+    .first-container {
+        color: white;
+        background-color: black;
+        padding: 50px;
+        
+    }
+
+
+
 }
