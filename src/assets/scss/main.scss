@@ -1,3 +1,18 @@
 @use "partials/reset.scss" as *;
 @use "partials/variables.scss" as *;
 @use "partials/mixins.scss" as *;
+
+
+// HEADER STYLE 
+
+#header {
+    display: $displayFlex;
+    justify-content: $JustifyContentSpaceBetween;
+
+    ul {
+        display: $displayFlex;
+        li {
+            list-style: $list;
+        }
+    }
+}
