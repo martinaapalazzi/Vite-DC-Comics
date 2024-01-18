@@ -4,6 +4,7 @@
       return {
         options: [
           {
+            img: "../assets/img/buy-comics-digital-comics.jpg",
             name: "DIGITAL COMICS"
           },
           {
@@ -38,7 +39,8 @@
     <div class="second-container">
       <div class="row">
         <div class="column" v-for="(option, index) in options">
-
+          <img :src="contacts.img" alt="contacts.img">
+          {{ option.name }}
         </div>
       </div>
 
