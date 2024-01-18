@@ -4,20 +4,24 @@
       return {
         options: [
           {
-            img: "../assets/img/buy-comics-digital-comics.jpg",
+            img: "../assets/img/buy-comics-digital-comics.png.jpg",
             name: "DIGITAL COMICS"
           },
           {
-            name: "DIGITAL COMICS"
+            img: "../assets/img/buy-comics-merchandise.png.jpg",
+            name: "DC MERCHINDISE"
           },
           {
-            name: "DIGITAL COMICS"
+            img: "../assets/img/buy-comics-shop-locator.png.jpg",
+            name: "COMICS SHOP LOCATOR"
           },
           {
-            name: "DIGITAL COMICS"
+            img: "../assets/img/buy-comics-subscriptions.png.jpg",
+            name: "SUBSCRIPTION"
           },
           {
-            name: "DIGITAL COMICS"
+            img: "../assets/img/buy-dc-power-visa.svg.jpg",
+            name: "DC POWER VISA"
           },
         ]
         
@@ -37,13 +41,14 @@
     </div>
 
     <div class="second-container">
-      <div class="row">
-        <div class="column" v-for="(option, index) in options">
-          <img :src="contacts.img" alt="contacts.img">
-          {{ option.name }}
+      <div class="row" v-for="(option, index) in options">
+        <div>
+          <img :src="option.img" alt="option.img">
         </div>
+        <a href="#">
+          {{ option.name }}
+        </a>
       </div>
-
     </div>
     
   </div>

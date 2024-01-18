@@ -38,9 +38,27 @@
         color: white;
         background-color: black;
         padding: 50px;
-        
     }
 
+    .second-container {
+        display: $displayFlex;
+        justify-content: $JustifyContentSpaceAround;
+        align-items: $AlignItemsCenter;
+        background-color: #0082f9;
+        padding: 50px;
 
+        .row {
+            display: $displayFlex;
+            gap: 15px;
+        }
+        .row > a {
+            font-size: 15px;
+            text-decoration: none;
+            color: white;
+        }
+        .row > a:hover {
+            color: black;
+        }
+    }
 
 }
