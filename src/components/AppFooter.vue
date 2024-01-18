@@ -11,7 +11,15 @@
 <template>
   
   <div>
-    <p>FOOTER</p>
+
+    <div class="top-footer">
+
+    </div>
+
+    <div class="bottom-footer">
+
+    </div>
+
   </div>
   
 </template>

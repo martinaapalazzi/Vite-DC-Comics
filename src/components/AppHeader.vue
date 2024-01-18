@@ -46,7 +46,7 @@ import logo from '../assets/img/dc-logo.png';
 
   <div id="header">
 
-    <div>
+    <div class="logo-container">
       <img :src="logo" alt="Logo">
     </div>
 
