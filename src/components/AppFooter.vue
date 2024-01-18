@@ -148,7 +148,7 @@
 
       </div>
 
-      <div>
+      <div class="special-logo">
         <img src="../assets/img/dc-logo-bg.png" alt="">
       </div>
 
@@ -172,10 +172,6 @@
           <img src="../assets/img/footer-periscope.png" alt="../assets/img/footer-periscope.png">
         </div>
       </div>
-
-
-
-
 
     </div>
 
