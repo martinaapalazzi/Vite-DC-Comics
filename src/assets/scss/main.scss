@@ -68,11 +68,6 @@
                 height: 50px;
             }
         }
-        .row > a {
-            font-size: 13px;
-            text-decoration: none;
-            color: white;
-        }
         .row > a:hover {
             color: black;
         }
@@ -83,22 +78,20 @@
 
 #footer {
 
-
-
     // TOP- FOOTER STYLE 
     .top-footer {
         display: $displayFlex;
         justify-content: $JustifyContentSpaceAround;
         align-items: $AlignItemsCenter;
         height: 300px;
-        background-image: url('../img/dc-logo-bg.png');
+        color: white;
+        background-image: url('./src/assets/img/footer-bg.jpg');
     }
 
     // BOTTOM- FOOTER STYLE 
     .bottom-footer {
         display: $displayFlex;
         justify-content: $JustifyContentSpaceAround;
-        align-items: $AlignItemsCenter;
         background-color: #303030;
         padding: 40px;
 

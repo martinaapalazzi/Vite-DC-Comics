@@ -32,7 +32,59 @@
           {
             shop: 'Shop DC Collectibles'
           },
-        ]
+        ],
+        Dc: [
+          {
+            link:'Terms of use',
+          },
+          {
+            link:'Privacy politicy(New)',
+          },
+          {
+            link:'Ad Choices',
+          },
+          {
+            link:'Advertising',
+          },
+          {
+            link:'Jobs',
+          },
+          {
+            link:'Subscriptions',
+          },
+          {
+            link:'Talent Workshops',
+          },
+          {
+            link:'Cpsc certificates',
+          },
+          {
+            link:'Ratings',
+          },
+          {
+            link:'Shop help',
+          }, 
+          {
+            link:'Contact us',
+          },
+        ],
+        Sites: [
+          {
+            site:'Dc',
+          },
+          {
+            site:'Mad magazine',
+          },
+          {
+            site:'Dc kids',
+          },
+          {
+            site:'Dc universe',
+          },
+          {
+            site:'Dc power visa',
+          },
+        ],
         
         
       }
@@ -52,18 +104,20 @@
           DC COMICS
         </h4>
         <div v-for="(section, index) in dcComicsSections">
-          <div>
+          <a href="#">
             {{ section.section }}
-          </div>
+          </a>
         </div>
+        
+        <br>
 
         <h4> 
           SHOP
         </h4>
         <div v-for="(shop, index) in Shops">
-          <div>
+          <a href="#">
             {{ shop.shop }}
-          </div>
+          </a>
         </div>
 
       </div>
@@ -73,10 +127,10 @@
         <h4> 
           DC
         </h4>
-        <div v-for="(section, index) in dcComicsSections">
-          <div>
-            {{ section.section }}
-          </div>
+        <div v-for="(link, index) in Dc">
+          <a href="#">
+            {{ link.link }}
+          </a>
         </div>
 
       </div>
@@ -86,12 +140,16 @@
         <h4> 
           SITES
         </h4>
-        <div v-for="(section, index) in dcComicsSections">
-          <div>
-            {{ section.section }}
-          </div>
+        <div v-for="(site, index) in Sites">
+          <a href="#">
+            {{ site.site }}
+          </a>
         </div>
 
+      </div>
+
+      <div class="container">
+        <img src="../assets/img/dc-logo-bg.png" alt="">
       </div>
 
     </div>
