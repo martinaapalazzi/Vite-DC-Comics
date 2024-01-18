@@ -4,23 +4,23 @@
       return {
         options: [
           {
-            img: '../assets/img/buy-comics-digital-comics.png',
+            img: './src/assets/img/buy-comics-digital-comics.png',
             name: "DIGITAL COMICS"
           },
           {
-            img: '../assets/img/buy-comics-merchandise.jpg',
+            img: './src/assets/img/buy-comics-merchandise.png',
             name: "DC MERCHINDISE"
           },
           {
-            img: '../assets/img/buy-comics-shop-locator.jpg',
+            img: './src/assets/img/buy-comics-shop-locator.png',
             name: "COMICS SHOP LOCATOR"
           },
           {
-            img: '../assets/img/buy-comics-subscriptions.jpg',
+            img: './src/assets/img/buy-comics-subscriptions.png',
             name: "SUBSCRIPTION"
           },
           {
-            img: '../assets/img/buy-dc-power-visa.jpg',
+            img: './src/assets/img/buy-comics-subscriptions.png',
             name: "DC POWER VISA"
           },
         ]

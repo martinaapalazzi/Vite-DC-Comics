@@ -2,6 +2,38 @@
   export default {
     data() {
       return {
+        dcComicsSections: [
+          {
+            section: 'Characters'
+          },
+          {
+            section: 'Comics'
+          },
+          {
+            section: 'Movies'
+          },
+          {
+            section: 'TV'
+          },
+          {
+            section: 'Games'
+          },
+          {
+            section: 'Videos'
+          },
+          {
+            section: 'News'
+          }
+        ],
+        Shops: [
+          {
+            shop: 'Shop DC'
+          },
+          {
+            shop: 'Shop DC Collectibles'
+          },
+        ]
+        
         
       }
     },
@@ -14,6 +46,54 @@
 
     <div class="top-footer">
 
+      <div class="first-column">
+        
+        <h4> 
+          DC COMICS
+        </h4>
+        <div v-for="(section, index) in dcComicsSections">
+          <div>
+            {{ section.section }}
+          </div>
+        </div>
+
+        <h4> 
+          SHOP
+        </h4>
+        <div v-for="(shop, index) in Shops">
+          <div>
+            {{ shop.shop }}
+          </div>
+        </div>
+
+      </div>
+
+      <div class="second-column">
+
+        <h4> 
+          DC
+        </h4>
+        <div v-for="(section, index) in dcComicsSections">
+          <div>
+            {{ section.section }}
+          </div>
+        </div>
+
+      </div>
+
+      <div class="third-column">
+
+        <h4> 
+          SITES
+        </h4>
+        <div v-for="(section, index) in dcComicsSections">
+          <div>
+            {{ section.section }}
+          </div>
+        </div>
+
+      </div>
+
     </div>
 
     <div class="bottom-footer">
@@ -22,16 +102,16 @@
         SIGN-UP NOW!
       </button>
 
-      <div>
+      <div class="right-side-footer">
         <h3>
           FOLLOW US
         </h3>
-        <div>
-          <i class="fa-brands fa-facebook" style="color: #878787;"></i>
-          <i class="fa-brands fa-twitter" style="color: #878787;"></i>
-          <i class="fa-brands fa-facebook" style="color: #878787;"></i>
-          <i class="fa-brands fa-twitter" style="color: #878787;"></i>
-          <i class="fa-brands fa-facebook" style="color: #878787;"></i>
+        <div class="apps-container">
+          <img class="single-app" src="../assets/img/footer-facebook.png" alt="../assets/img/footer-facebook.png">
+          <img src="../assets/img/footer-twitter.png" alt="../assets/img/footer-twitter.png">
+          <img src="../assets/img/footer-youtube.png" alt="../assets/img/footer-youtube.png">
+          <img src="../assets/img/footer-pinterest.png" alt="../assets/img/footer-pinterest.png">
+          <img src="../assets/img/footer-periscope.png" alt="../assets/img/footer-periscope.png">
         </div>
       </div>
 
