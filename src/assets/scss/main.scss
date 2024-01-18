@@ -10,7 +10,6 @@
 #header {
 
     .header-container {
-        width: 1200px;
         display: $displayFlex;
         justify-content: $JustifyContentSpaceAround;
         align-items: $AlignItemsCenter;
@@ -46,7 +45,6 @@
 #main {
 
     .content-container {
-        width: 1200px;
         color: white;
         background-color: black;
         padding: 50px;
@@ -90,6 +88,23 @@
         display: $displayFlex;
         justify-content: $JustifyContentSpaceAround;
         align-items: $AlignItemsCenter;
+        background-color: #303030;
+        padding: 40px;
+
+        button {
+            background-color: transparent;
+            border: 3px #0082f9 solid;
+            color: white;
+            padding: 10px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+        }
+
+        div {
+            h3 {
+                color: #0082F9;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+        }
 
     }
 

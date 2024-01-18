@@ -29,6 +29,9 @@
         <div>
           <i class="fa-brands fa-facebook" style="color: #878787;"></i>
           <i class="fa-brands fa-twitter" style="color: #878787;"></i>
+          <i class="fa-brands fa-facebook" style="color: #878787;"></i>
+          <i class="fa-brands fa-twitter" style="color: #878787;"></i>
+          <i class="fa-brands fa-facebook" style="color: #878787;"></i>
         </div>
       </div>
 
