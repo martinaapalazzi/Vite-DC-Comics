@@ -34,21 +34,25 @@
 
   <div id="main">
 
-    <div>
-      <h2 class="content-container">
-      Content goes here
-      </h2>
-    </div>
+    <div class="container">
 
-    <div class="second-container">
-      <div class="row" v-for="(option, index) in options">
-        <div>
-          <img :src="option.img" alt="option.img">
-        </div>
-        <a href="#">
-          {{ option.name }}
-        </a>
+      <div>
+        <h2 class="content-container">
+          Content goes here
+        </h2>
       </div>
+
+      <div class="second-container">
+        <div class="row" v-for="(option, index) in options">
+          <div>
+            <img :src="option.img" alt="option.img">
+          </div>
+          <a href="#">
+            {{ option.name }}
+          </a>
+        </div>
+      </div>
+
     </div>
     
   </div>

@@ -108,7 +108,7 @@
             {{ section.section }}
           </a>
         </div>
-        
+
         <br>
 
         <h4> 
@@ -148,7 +148,7 @@
 
       </div>
 
-      <div class="container">
+      <div>
         <img src="../assets/img/dc-logo-bg.png" alt="">
       </div>
 
