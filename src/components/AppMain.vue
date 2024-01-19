@@ -116,8 +116,12 @@
           <span>
             CURRENT SERIES
           </span>
-          <div>
-            SERIE
+          <div class="series-container">
+            <div v-for="(serie, index) in series">
+              <div>
+                {{ serie.series }}
+              </div>
+            </div>
           </div>
         </div>
       </div>

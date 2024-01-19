@@ -4,6 +4,10 @@ export default {
       return {
 
       }
+    },
+    props: {
+      
+
     }
 }
 
