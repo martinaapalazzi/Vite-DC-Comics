@@ -6,34 +6,34 @@ import logo from '../assets/img/dc-logo.png';
         logo,
         linksHeader: [
           {
-            link: 'CHARACTERS'
+            label: 'CHARACTERS'
           },
           {
-            link: 'COMICS'
+            label: 'COMICS'
           },
           {
-            link: 'MOVIES'
+            label: 'MOVIES'
           },
           {
-            link: 'TV'
+            label: 'TV'
           },
           {
-            link: 'GAMES'
+            label: 'GAMES'
           },
           {
-            link: 'COLLECTIBLES'
+            label: 'COLLECTIBLES'
           },
           {
-            link: 'VIDEOS'
+            label: 'VIDEOS'
           },
           {
-            link: 'FANS'
+            label: 'FANS'
           },
           {
-            link: 'NEWS'
+            label: 'NEWS'
           },
           {
-            link: 'SHOP'
+            label: 'SHOP'
           },
 
         ]
@@ -56,8 +56,12 @@ import logo from '../assets/img/dc-logo.png';
 
         <div>
           <ul>
-            <li v-for="(singleLinkHeader, index) in linksHeader">
-              <a href="#"> {{ singleLinkHeader.link }}</a>
+            <li v-for="(singleLabel, index) in linksHeader">
+              <a v-if="singleLabel.active ? 'active' : ' '"
+              :class="{
+                'active': singleLabel.active
+              }"
+              href="#"> {{ singleLabel.label }}</a>
             </li>
           </ul>
         </div>

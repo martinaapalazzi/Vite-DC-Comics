@@ -33,6 +33,7 @@
                 }
                 a:hover {
                     color: #0082F9;
+                    font-size: bold;
                 }
             }
         }
@@ -72,10 +73,13 @@
                 font-size: 14px;
                 text-decoration: none;
                 color: white;
+                padding: 18px 15px;
+                transition: all .1s ease-in-out;
+
+                &:hover {
+                    background-color: #303030d4;
+                }
             }
-        }
-        .row > a:hover {
-            color: black;
         }
     }
 }
@@ -101,6 +105,10 @@
             font-size: 14px;
             text-decoration: none;
             color: rgb(167, 167, 167);
+
+            &:hover {
+                color: #7fc1ff;
+            }
         }
 
         .special-logo {
@@ -121,7 +129,11 @@
             border: 3px #0082f9 solid;
             color: white;
             padding: 10px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+            &:hover {
+                background-color: #0082f9;
+            }
         }
 
         .right-side-footer {
@@ -140,15 +152,6 @@
                 align-items: $AlignItemsCenter;
                 gap: 10px;
             }
-
         }
-
     }
-
-
-
-
-
-
-
 }
